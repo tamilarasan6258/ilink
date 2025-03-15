@@ -6,6 +6,8 @@ body {
     line-height: 1.6;
 }
 
+/* navbar */
+
 nav {
     background-color: #EEEEEE;
     padding: 15px 20px;
@@ -31,14 +33,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #D32F2F; /* Red */
+    color: #D32F2F; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #333; /* Dark Grey on hover */
+    color: #333; 
 }
+
+/* header section */
 
 header {
     background-image: url('about.jpg');
@@ -63,22 +67,24 @@ header::before {
 header * {
     position: relative;
     z-index: 1;
-    color: white; /* Header text white */
+    color: white; 
 }
 
 header h1 {
-    color: #D32F2F; /* Red */
+    color: #D32F2F; 
     margin-bottom: 10px;
 }
 
+/* about */
+
 .about-section {
-    background-color: #EEEEEE; /* Light Grey */
+    background-color: #EEEEEE; 
     padding: 40px 20px;
     text-align: center;
 }
 
 .about-section h2 {
-    color: #D32F2F; /* Red */
+    color: #D32F2F;
     margin-bottom: 20px;
 }
 
@@ -88,68 +94,17 @@ header h1 {
     color: #666;
 }
 
-
-
-.clients {
-    background-color: #EEEEEE; /* Or any background color you prefer */
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.client-container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.client-container h2{
-    color:#D32F2F;
-}
-
-.client-logos {
-    margin: 0px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden; /* Hide overflowing logos */
-    position: relative; /* For absolute positioning of arrows */
-}
-
-.client-logo {
-    height: 80px; /* Adjust as needed */
-    margin: 0 20px; /* Space between logos */
-    flex-shrink: 0; /* Prevent logos from shrinking */
-}
-
-.client-arrow {
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px;
-    color: #333; /* Arrow color */
-}
-
-.left-arrow {
-    left: 0;
-}
-
-.right-arrow {
-    right: 0;
-}
-
-
+/* jobs */
 
 .job-listings {
     padding: 40px 20px;
-    background-color: #EEEEEE; /* Light Grey */
+    background-color: #EEEEEE; 
 }
 
 .job-listings h2 {
-    color: #D32F2F; /* Red */
+    color: #D32F2F; 
     text-align: center;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -201,7 +156,7 @@ header h1 {
 }
 
 .apply-button {
-    background-color: #D32F2F; /* Red */
+    background-color: #D32F2F; 
     color: white;
     text-decoration: none;
     padding: 10px 15px;
@@ -212,11 +167,58 @@ header h1 {
 }
 
 .apply-button:hover {
-    background-color: #B71C1C; /* Darker Red */
+    background-color: #B71C1C; 
 }
 
+/* clients */
+
+.clients {
+    background-color: #EEEEEE; 
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.client-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.client-container h2{
+    color:#D32F2F;
+    font-size: 30px;
+}
+
+.client-logos {
+    margin: 0px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden; 
+    position: relative;
+}
+
+.client-logo {
+    height: 80px; 
+    margin: 0 20px; 
+    flex-shrink: 0; 
+}
+
+.client-arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: #333; 
+}
+
+/* contact */
+
 .contact {
-    background-color: #EEEEEE; /* Light Grey */
+    background-color: #EEEEEE; 
     padding: 40px 20px;
 }
 
@@ -227,7 +229,7 @@ header h1 {
 }
 
 .contact h2 span {
-    color: #D32F2F; /* Red */
+    color: #D32F2F; 
 }
 
 .con-container {
@@ -258,7 +260,7 @@ header h1 {
 
 .contact-left-title h2 {
     text-align: left;
-    color: #D32F2F; /* Red */
+    color: #D32F2F; 
 }
 
 .contact-left-title hr {
@@ -280,7 +282,7 @@ header h1 {
 }
 
 .contact-left button {
-    background-color: #D32F2F; /* Red */
+    background-color: #D32F2F; 
     color: white;
     padding: 12px 20px;
     border: none;
@@ -290,11 +292,11 @@ header h1 {
 }
 
 .contact-left button:hover {
-    background-color: #B71C1C; /* Darker Red */
+    background-color: #B71C1C; 
 }
 
 .contact-right {
-    background-color: #E0E0E0; /* Slightly Darker Grey */
+    background-color: #E0E0E0; 
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -321,7 +323,7 @@ header h1 {
 }
 
 .social-links a:hover {
-    color: #B71C1C; /* Darker Red */
+    color: #B71C1C; 
 }
 
 .contact-left:hover,
